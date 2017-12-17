@@ -10,3 +10,4 @@ class YoutubeUploadForm(forms.Form):
 class YoutubeDirectUploadForm(forms.ModelForm):
     class Meta:
         model = UploadedVideo
+        fields = '__all__'
